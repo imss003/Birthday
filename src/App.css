@@ -1,0 +1,15 @@
+@keyframes rotate-hor-center {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
+
+.rotate-hor-center-normal {
+  animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0s 1 normal both;
+}
+.loading{
+    animation: rotate()
+}
